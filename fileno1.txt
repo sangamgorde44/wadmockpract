@@ -1,1 +1,61 @@
-ffile 1gfhygjhfdgfh
+Microsoft Windows [Version 10.0.19045.4291]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dit-12\Documents\wadpract>git init
+Initialized empty Git repository in C:/Users/dit-12/Documents/wadpract/.git/
+
+C:\Users\dit-12\Documents\wadpract>git add --a
+
+C:\Users\dit-12\Documents\wadpract>git branch -M main
+
+C:\Users\dit-12\Documents\wadpract>git remote add origin https://github.com/sangamgorde44/wadmockpract.git
+
+C:\Users\dit-12\Documents\wadpract>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   fileno1.txt
+
+
+C:\Users\dit-12\Documents\wadpract>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\dit-12\Documents\wadpract>git add .
+
+C:\Users\dit-12\Documents\wadpract>git commit -m "F commit"
+[main (root-commit) d0ea56a] F commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fileno1.txt
+
+C:\Users\dit-12\Documents\wadpract>git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\dit-12\Documents\wadpract>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sangamgorde44/wadmockpract.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\dit-12\Documents\wadpract>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\dit-12\Documents\wadpract>
